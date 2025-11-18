@@ -59,3 +59,52 @@ main img {
 .images{
      border: 1px solid red;
 }
+
+header, footer {
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: steelblue;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a {
+  display: block;
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff; 
+}
+
+h1 {
+  border-bottom: 3px solid #333; 
+  padding-bottom: 5px;  
+}
+
+header, .grid, footer {
+    max-width: 840px;
+    margin: auto;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+}
+    
+main {
+  grid-column: 2/3;
+  margin: 1rem;
+}
+    
+aside {
+  width: 20rem;
+  position: relative;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
