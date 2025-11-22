@@ -10,6 +10,7 @@
 header {
     background-color: var(--accent1-color);
     color: var(--accent2-color);
+    padding: 1 rem;
   }
 
   * {
@@ -58,6 +59,17 @@ nav, p, section, article {
 }
 
 h1,article {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.8;
+  background-color: var(--accent1-color);
+  color: gray; 
+}
+
+.article {
   position: absolute;
   top: 20px;
   width: 100%;
@@ -178,3 +190,31 @@ header .logo {
     font-size: 0.9rem;
     font-weight: 600;
 }
+
+footer {
+    width: 100%;
+    padding: 1 rem;
+    background: #e3d5ff; 
+    border-top: 2px solid #ccc;
+
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 1rem; 
+}
+
+.socialmedia img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
