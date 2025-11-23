@@ -10,7 +10,7 @@
 header {
     background-color: var(--accent1-color);
     color: var(--accent2-color);
-    padding: 1rem;
+    padding: 1 rem;
   }
 
   * {
@@ -117,7 +117,7 @@ nav ul {
   padding: 0;
 }
 
-.logo {
+header .logo {
   width: 120px;
 }
 
@@ -152,7 +152,7 @@ nav ul {
     border-radius: 4px;
 }
 
-.adventure {
+.adventures {
     width: 90%;
     margin: 2rem auto;
     padding: 1.5rem;
@@ -161,7 +161,7 @@ nav ul {
     border-radius: 8px;
 }
 
-.adventure h2 {
+.adventures h2 {
     text-align: center;
     margin-bottom: 2rem;
 }
@@ -193,7 +193,7 @@ nav ul {
 
 footer {
     width: 100%;
-    padding: 1rem;
+    padding: 1 rem;
     background: #e3d5ff; 
     border-top: 2px solid #ccc;
 
