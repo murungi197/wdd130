@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic quiz form</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <main>
+        <h1>💻Basic form quiz</h1>
+        <form action="">
+            <div class="quiz-item">
+                <label for="q1">1. what does the acronym html stand for?</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+            <div class="quiz-item">
+                <label for="q2">2. what does the acronym css stand for?</label>
+                <textarea id="text" id="q2" name="q2"></textarea>
+            </div>
+            <div class="quiz-item">
+                <label for="q3">3. which of the following is a valid css comment?</label>
+                <select id="q3" name="q3">
+                    <option value="" selected disabled>choose one....</option>
+                    <option value="a">A. &lt;/..this is a comment../&gt;</option>
+                    <option value="b">B. &lt;/* this is a comment */&gt;</option>
+
+                </select>
+            </div>
+            <div class="quiz-item">
+                <label for="q4">4. what does the acronym vscode stand for?</label>
+                <code>margin: 10px 5px 15 px</code>
+                <input type="number" id="q4" name="q4">
+            </div>
+            <button type="submit"> Submit quiz</button>
+        </form>
+    </main>
+</body>
+
+</html>
