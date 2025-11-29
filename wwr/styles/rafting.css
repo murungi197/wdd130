@@ -8,7 +8,7 @@
 }
 
 header {
-    background-color: var(--accent1-color);
+    background-color: var(--accent2-color);
     color: var(--accent2-color);
     padding: 1 rem;
   }
@@ -26,12 +26,12 @@ body {
 }
 
 header, main, footer {
-  width: 840px;
+  width: 940px;
   margin: 0 auto;
 }
 
 .hero-back{
-  width: 840px;
+  width: 940px;
   display: block;
   height: auto;
 
