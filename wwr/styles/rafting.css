@@ -11,6 +11,7 @@ header {
     background-color: var(--accent2-color);
     color: var(--accent2-color);
     padding: 1 rem;
+    width: 100%;
   }
 
   * {
@@ -312,3 +313,105 @@ footer p {
   gap: 80px;
 }
 
+.hero-1{
+  width: 100%;
+   height: 400px;
+  float: center;
+}
+
+.newsletter button{
+   width: 100px;
+    padding: 12px;
+    background: green;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    gap: 10px;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"] {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+}
+
+.grid{
+  width: 30%;
+  height: 10%;
+  border-radius: 20px;
+  margin-right: 20px; 
+  margin-bottom: 15px; 
+}
+
+.trip-table-section {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.trips-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+.trips-table th,
+.trips-table td {
+  border: 1px solid #ccc;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.trips-table th {
+  background-color: #005f8f;   
+  color: white;
+  font-weight: bold;
+}
+
+.trips-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.trips-table tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.trips-table tr:hover {
+  background-color: #d7efff;
+  transition: background 0.2s ease;
+}
+
+@media (max-width: 600px) {
+  .trips-table th,
+  .trips-table td {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+}
+
+.cta-button{
+  width: 90px;
+    padding: 12px;
+    background: green;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.p{
+    width: 90%;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+}
